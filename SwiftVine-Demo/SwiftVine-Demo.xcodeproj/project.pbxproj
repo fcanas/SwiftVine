@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E73AD52519BA48D800FF5B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73AD52419BA48D800FF5B08 /* AppDelegate.swift */; };
+		E73AD52719BA48D800FF5B08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73AD52619BA48D800FF5B08 /* ViewController.swift */; };
+		E73AD52A19BA48D800FF5B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E73AD52819BA48D800FF5B08 /* Main.storyboard */; };
+		E73AD52C19BA48D800FF5B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73AD52B19BA48D800FF5B08 /* Images.xcassets */; };
+		E73AD53819BA48D800FF5B08 /* SwiftVine_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73AD53719BA48D800FF5B08 /* SwiftVine_DemoTests.swift */; };
+		E73AD54219BA48FF00FF5B08 /* SwiftVine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73AD54119BA48FF00FF5B08 /* SwiftVine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E73AD53219BA48D800FF5B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E73AD51719BA48D800FF5B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E73AD51E19BA48D800FF5B08;
+			remoteInfo = "SwiftVine-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E73AD51F19BA48D800FF5B08 /* SwiftVine-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftVine-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73AD52319BA48D800FF5B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73AD52419BA48D800FF5B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E73AD52619BA48D800FF5B08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E73AD52919BA48D800FF5B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E73AD52B19BA48D800FF5B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E73AD53119BA48D800FF5B08 /* SwiftVine-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftVine-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73AD53619BA48D800FF5B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E73AD53719BA48D800FF5B08 /* SwiftVine_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVine_DemoTests.swift; sourceTree = "<group>"; };
+		E73AD54119BA48FF00FF5B08 /* SwiftVine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftVine.framework; path = "../build/Debug-iphoneos/SwiftVine.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E73AD51C19BA48D800FF5B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73AD54219BA48FF00FF5B08 /* SwiftVine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73AD52E19BA48D800FF5B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E73AD51619BA48D800FF5B08 = {
+			isa = PBXGroup;
+			children = (
+				E73AD54119BA48FF00FF5B08 /* SwiftVine.framework */,
+				E73AD52119BA48D800FF5B08 /* SwiftVine-Demo */,
+				E73AD53419BA48D800FF5B08 /* SwiftVine-DemoTests */,
+				E73AD52019BA48D800FF5B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E73AD52019BA48D800FF5B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E73AD51F19BA48D800FF5B08 /* SwiftVine-Demo.app */,
+				E73AD53119BA48D800FF5B08 /* SwiftVine-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E73AD52119BA48D800FF5B08 /* SwiftVine-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E73AD52419BA48D800FF5B08 /* AppDelegate.swift */,
+				E73AD52619BA48D800FF5B08 /* ViewController.swift */,
+				E73AD52819BA48D800FF5B08 /* Main.storyboard */,
+				E73AD52B19BA48D800FF5B08 /* Images.xcassets */,
+				E73AD52219BA48D800FF5B08 /* Supporting Files */,
+			);
+			path = "SwiftVine-Demo";
+			sourceTree = "<group>";
+		};
+		E73AD52219BA48D800FF5B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73AD52319BA48D800FF5B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E73AD53419BA48D800FF5B08 /* SwiftVine-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E73AD53719BA48D800FF5B08 /* SwiftVine_DemoTests.swift */,
+				E73AD53519BA48D800FF5B08 /* Supporting Files */,
+			);
+			path = "SwiftVine-DemoTests";
+			sourceTree = "<group>";
+		};
+		E73AD53519BA48D800FF5B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E73AD53619BA48D800FF5B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E73AD51E19BA48D800FF5B08 /* SwiftVine-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73AD53B19BA48D800FF5B08 /* Build configuration list for PBXNativeTarget "SwiftVine-Demo" */;
+			buildPhases = (
+				E73AD51B19BA48D800FF5B08 /* Sources */,
+				E73AD51C19BA48D800FF5B08 /* Frameworks */,
+				E73AD51D19BA48D800FF5B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftVine-Demo";
+			productName = "SwiftVine-Demo";
+			productReference = E73AD51F19BA48D800FF5B08 /* SwiftVine-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E73AD53019BA48D800FF5B08 /* SwiftVine-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E73AD53E19BA48D800FF5B08 /* Build configuration list for PBXNativeTarget "SwiftVine-DemoTests" */;
+			buildPhases = (
+				E73AD52D19BA48D800FF5B08 /* Sources */,
+				E73AD52E19BA48D800FF5B08 /* Frameworks */,
+				E73AD52F19BA48D800FF5B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E73AD53319BA48D800FF5B08 /* PBXTargetDependency */,
+			);
+			name = "SwiftVine-DemoTests";
+			productName = "SwiftVine-DemoTests";
+			productReference = E73AD53119BA48D800FF5B08 /* SwiftVine-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E73AD51719BA48D800FF5B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Fabian Canas";
+				TargetAttributes = {
+					E73AD51E19BA48D800FF5B08 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E73AD53019BA48D800FF5B08 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E73AD51E19BA48D800FF5B08;
+					};
+				};
+			};
+			buildConfigurationList = E73AD51A19BA48D800FF5B08 /* Build configuration list for PBXProject "SwiftVine-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E73AD51619BA48D800FF5B08;
+			productRefGroup = E73AD52019BA48D800FF5B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E73AD51E19BA48D800FF5B08 /* SwiftVine-Demo */,
+				E73AD53019BA48D800FF5B08 /* SwiftVine-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E73AD51D19BA48D800FF5B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73AD52A19BA48D800FF5B08 /* Main.storyboard in Resources */,
+				E73AD52C19BA48D800FF5B08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73AD52F19BA48D800FF5B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E73AD51B19BA48D800FF5B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73AD52719BA48D800FF5B08 /* ViewController.swift in Sources */,
+				E73AD52519BA48D800FF5B08 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73AD52D19BA48D800FF5B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73AD53819BA48D800FF5B08 /* SwiftVine_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E73AD53319BA48D800FF5B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E73AD51E19BA48D800FF5B08 /* SwiftVine-Demo */;
+			targetProxy = E73AD53219BA48D800FF5B08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E73AD52819BA48D800FF5B08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E73AD52919BA48D800FF5B08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E73AD53919BA48D800FF5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E73AD53A19BA48D800FF5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E73AD53C19BA48D800FF5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fcanas/repositories/SwiftVine/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "SwiftVine-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E73AD53D19BA48D800FF5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fcanas/repositories/SwiftVine/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "SwiftVine-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E73AD53F19BA48D800FF5B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiftVine-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVine-Demo.app/SwiftVine-Demo";
+			};
+			name = Debug;
+		};
+		E73AD54019BA48D800FF5B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SwiftVine-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftVine-Demo.app/SwiftVine-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E73AD51A19BA48D800FF5B08 /* Build configuration list for PBXProject "SwiftVine-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73AD53919BA48D800FF5B08 /* Debug */,
+				E73AD53A19BA48D800FF5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73AD53B19BA48D800FF5B08 /* Build configuration list for PBXNativeTarget "SwiftVine-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73AD53C19BA48D800FF5B08 /* Debug */,
+				E73AD53D19BA48D800FF5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E73AD53E19BA48D800FF5B08 /* Build configuration list for PBXNativeTarget "SwiftVine-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E73AD53F19BA48D800FF5B08 /* Debug */,
+				E73AD54019BA48D800FF5B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E73AD51719BA48D800FF5B08 /* Project object */;
+}

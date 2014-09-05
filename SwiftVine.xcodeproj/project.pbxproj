@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E73AD50219BA302500FF5B08 /* SwiftVine.h in Headers */ = {isa = PBXBuildFile; fileRef = E73AD50119BA302500FF5B08 /* SwiftVine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E73AD50C19BA302500FF5B08 /* SwiftVineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73AD50B19BA302500FF5B08 /* SwiftVineTests.swift */; };
+		E73AD54419BA495100FF5B08 /* VineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73AD54319BA495100FF5B08 /* VineService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		E73AD50719BA302500FF5B08 /* SwiftVineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftVineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73AD50A19BA302500FF5B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73AD50B19BA302500FF5B08 /* SwiftVineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVineTests.swift; sourceTree = "<group>"; };
+		E73AD54319BA495100FF5B08 /* VineService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VineService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				E73AD50119BA302500FF5B08 /* SwiftVine.h */,
 				E73AD4FF19BA302500FF5B08 /* Supporting Files */,
+				E73AD54319BA495100FF5B08 /* VineService.swift */,
 			);
 			path = SwiftVine;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73AD54419BA495100FF5B08 /* VineService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +302,7 @@
 		E73AD51019BA302500FF5B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -307,12 +312,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E73AD51119BA302500FF5B08 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -374,6 +381,7 @@
 				E73AD51119BA302500FF5B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73AD51219BA302500FF5B08 /* Build configuration list for PBXNativeTarget "SwiftVineTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +390,7 @@
 				E73AD51419BA302500FF5B08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
