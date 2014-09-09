@@ -1,18 +1,22 @@
 //
 //  ViewController.swift
-//  SwiftVine-Demo
+//  Vine
 //
-//  Created by Fabian Canas on 9/5/14.
+//  Created by Fabian Canas on 9/7/14.
 //  Copyright (c) 2014 Fabian Canas. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-                            
+    
+    lazy var vineService = VineService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        vineService.getVinesForTag("goats", completionHandler: { (goats, error) -> Void in
+            NSLog("%@", error!)
+        })
     }
 
     override func didReceiveMemoryWarning() {

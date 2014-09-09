@@ -1,15 +1,15 @@
 //
-//  SwiftVineTests.swift
-//  SwiftVineTests
+//  VineTests.swift
+//  VineTests
 //
-//  Created by Fabian Canas on 9/5/14.
+//  Created by Fabian Canas on 9/7/14.
 //  Copyright (c) 2014 Fabian Canas. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class SwiftVineTests: XCTestCase {
+class VineTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

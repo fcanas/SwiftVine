@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SwiftVine-Demo
+//  Vine
 //
-//  Created by Fabian Canas on 9/5/14.
+//  Created by Fabian Canas on 9/7/14.
 //  Copyright (c) 2014 Fabian Canas. All rights reserved.
 //
 

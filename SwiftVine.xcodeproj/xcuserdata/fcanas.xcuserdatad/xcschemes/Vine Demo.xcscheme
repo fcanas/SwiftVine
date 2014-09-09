@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E73AD51E19BA48D800FF5B08"
-               BuildableName = "SwiftVine-Demo.app"
-               BlueprintName = "SwiftVine-Demo"
-               ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+               BlueprintIdentifier = "E7488F2819BD4F40005302BC"
+               BuildableName = "Vine Demo.app"
+               BlueprintName = "Vine Demo"
+               ReferencedContainer = "container:SwiftVine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E73AD53019BA48D800FF5B08"
-               BuildableName = "SwiftVine-DemoTests.xctest"
-               BlueprintName = "SwiftVine-DemoTests"
-               ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+               BlueprintIdentifier = "E7488F4319BD4F41005302BC"
+               BuildableName = "Vine DemoTests.xctest"
+               BlueprintName = "Vine DemoTests"
+               ReferencedContainer = "container:SwiftVine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E73AD53019BA48D800FF5B08"
-               BuildableName = "SwiftVine-DemoTests.xctest"
-               BlueprintName = "SwiftVine-DemoTests"
-               ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+               BlueprintIdentifier = "E7488F4319BD4F41005302BC"
+               BuildableName = "Vine DemoTests.xctest"
+               BlueprintName = "Vine DemoTests"
+               ReferencedContainer = "container:SwiftVine.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E73AD51E19BA48D800FF5B08"
-            BuildableName = "SwiftVine-Demo.app"
-            BlueprintName = "SwiftVine-Demo"
-            ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+            BlueprintIdentifier = "E7488F2819BD4F40005302BC"
+            BuildableName = "Vine Demo.app"
+            BlueprintName = "Vine Demo"
+            ReferencedContainer = "container:SwiftVine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E73AD51E19BA48D800FF5B08"
-            BuildableName = "SwiftVine-Demo.app"
-            BlueprintName = "SwiftVine-Demo"
-            ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+            BlueprintIdentifier = "E7488F2819BD4F40005302BC"
+            BuildableName = "Vine Demo.app"
+            BlueprintName = "Vine Demo"
+            ReferencedContainer = "container:SwiftVine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E73AD51E19BA48D800FF5B08"
-            BuildableName = "SwiftVine-Demo.app"
-            BlueprintName = "SwiftVine-Demo"
-            ReferencedContainer = "container:SwiftVine-Demo.xcodeproj">
+            BlueprintIdentifier = "E7488F2819BD4F40005302BC"
+            BuildableName = "Vine Demo.app"
+            BlueprintName = "Vine Demo"
+            ReferencedContainer = "container:SwiftVine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
